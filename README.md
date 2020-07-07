@@ -1,2 +1,0 @@
-# periodic
-periodic table
