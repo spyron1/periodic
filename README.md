@@ -1,2 +1,4 @@
 <h2> Using below link you can access </h2>
-<p>https://dibyanshu.s3.amazonaws.com/periodictable.html</p>
+
+<a href="url" target="_blank">https://dibyanshu.s3.amazonaws.com/periodictable.html</a>
+
