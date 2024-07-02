@@ -8,9 +8,7 @@ jobs:
         run: | 
                 echo "Hello World!"
                 echo "It's Dp World"
-               
-      - name: Set environment variable
-        run: echo "MY_ENV_VAR=myValue" >> $GITHUB_ENV
+ 
       - name: print goodbye
         run: echo "Done -bye!"
       
