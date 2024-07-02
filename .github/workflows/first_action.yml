@@ -8,6 +8,7 @@ jobs:
         run: | 
                 echo "Hello World!"
                 echo "It's Dp World"
+                pwd
       - name: print goodbye
         run: echo "Done -bye!"
       
