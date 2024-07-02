@@ -9,6 +9,8 @@ jobs:
                 echo "Hello World!"
                 echo "It's Dp World"
                 echo "::set-output name=pwd::$(pwd)"
+      - name: Use the pwd output
+        run: echo "The working directory was ${{ steps.greeting.outputs.pwd }}"
       - name: print goodbye
         run: echo "Done -bye!"
       
