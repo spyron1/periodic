@@ -8,7 +8,7 @@ jobs:
         run: | 
                 echo "Hello World!"
                 echo "It's Dp World"
-                pwd
+                echo "::set-output name=pwd::$(pwd)"
       - name: print goodbye
         run: echo "Done -bye!"
       
